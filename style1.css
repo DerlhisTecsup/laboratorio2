@@ -1,0 +1,72 @@
+h1{
+    color: rgb(233, 236, 228);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline underline;
+}
+.presentacion{
+    padding: 10px; /* espacio de relleno del párrafo sombreado */
+    padding: 10px;
+}
+
+body{
+    background-image: url("images.jpg");
+    font-family: 'Quicksand', sans-serif;
+
+}
+.imagen-redonda {
+    max-width: 550px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.foto {
+    width: 80%;
+}
+.informacion {
+    color: rgb(238, 228, 228);
+}
+
+  
+.imagen-redonda img {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;  
+    object-fit: cover;
+   
+}
+.parrafo-sombreado {
+    padding: 10px; /* espacio de relleno del párrafo sombreado */
+    font-size: 14px;
+    text-align: left;
+}
+.titulos{
+    color: rgb(233, 236, 228);
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: overline underline;
+}
+
+.emotis{
+    font-size: 2em;
+    color: red;
+}
+.par{
+    background-color: antiquewhite;
+}
+
+
+  
+  
+  
+  
+  
